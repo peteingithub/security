@@ -15,11 +15,11 @@ k3s:
 controller:
   replicas: 1
   prime:
-    enabled: true
+    enabled: false
   pvc:
     enabled: false
   ranchersso:
-    enabled: true
+    enabled: false
   configmap:
     enabled: true
     data:

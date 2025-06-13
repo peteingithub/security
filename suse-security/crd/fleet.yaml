@@ -1,4 +1,4 @@
-defaultNamespace: cattle-neuvector-system
+defaultNamespace: neuvector
 helm:
   chart: neuvector-crd
   repo: https://charts.rancher.io

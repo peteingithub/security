@@ -1,4 +1,4 @@
-defaultNamespace: cattle-neuvector-system
+defaultNamespace: neuvector
 helm:
   chart: neuvector
   repo: https://charts.rancher.io
@@ -13,9 +13,6 @@ dependsOn:
   - selector:
       matchLabels:
         provides: neuvector-crd
-#  - selector:
-#      matchLabels:
-#        provides: longhorn
 labels:
   provides: neuvector
   
