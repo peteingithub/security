@@ -1,9 +1,10 @@
-# global:
-#   cattle:
-#     url: https://rancher.mars.lab.geeko.me
+global:
+  cattle:
+    url: https://rancher-vip.example.com
 registry: registry.rancher.com
 labels:
   catalog.cattle.io/cluster-repo-name: rancher-charts
+rbac: true
 manager:
   ingress:
     enabled: true
@@ -15,7 +16,7 @@ k3s:
 controller:
   replicas: 1
   prime:
-    enabled: false
+    enabled: true
   pvc:
     enabled: false
   ranchersso:
