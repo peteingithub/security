@@ -19,7 +19,7 @@ controller:
   pvc:
     enabled: false
   ranchersso:
-    enabled: false
+    enabled: true
   configmap:
     enabled: true
     data:
